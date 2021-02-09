@@ -9,8 +9,8 @@ const app = express();
 // Parse application/json
 app.use(bodyParser.json());
 
-app.post("/create", async (req, res) => {
-    res.send("OK");
+app.get("/status", async (req, res) => {
+    res.send("Ok.");
 });
 
 module.exports = { app };

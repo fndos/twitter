@@ -4,27 +4,23 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "format": "prettier --write '**/*.{js,jsx}'"
+    "format": "prettier --write '**/*.{js,jsx}'",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@01labec/jobs": "0.0.19",
-    "axios-oauth-1.0a": "^0.2.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "lowdb": "^1.0.0",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
-    "oauth-1.0a": "^2.2.6",
-    "serverless-http": "^2.3.2",
+    "normalize-text": "^2.3.1",
     "twit": "^2.2.11"
   },
   "devDependencies": {
-    "prettier": "^2.0.5",
-    "serverless-domain-manager": "^3.3.2",
-    "serverless-offline": "^6.1.4"
+    "prettier": "^2.0.5"
   }
 }
